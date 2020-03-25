@@ -1,0 +1,33 @@
+.bg-footer {
+    background: #0E0E0E;
+    padding: 55px 0;
+
+}
+.bg-footer p{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 130px;
+}
+
+.midias img {
+    width: 15px;
+    color:#fff
+}
+
+.midias span{
+    color:#fff
+}
+
+.copyright {
+    display: inline-block;
+}
+
+.copyright p {
+    border-top: 1px solid #fff;
+    padding: 40px 0;
+}
+
+
+.copyright img {
+    padding: 40px 0;
+}

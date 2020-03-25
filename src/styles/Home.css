@@ -1,0 +1,257 @@
+.bg-banner {
+    background: url('../images/banner.jpg') fixed no-repeat;
+    padding: 100px;
+    background-size: cover;
+    
+}
+
+.bg-banner h1 {
+   color: #FFFFFF;
+   line-height: 52px;
+   padding: 150px 0 70px 0;
+   font-size: 64px;
+}
+
+.bg-banner p {
+    padding-bottom: 81px;
+    color: #fff;
+}
+
+.bg-banner ul {
+    margin-bottom: 100px;
+}
+
+ul a {
+    color: #A60F14;
+}
+
+.bg-banner li {
+    display: inline;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 26px;
+    background: #fff;
+    padding: 12px 2px;
+}
+
+.bg-banner li.first {padding-left: 29px;}
+.bg-banner li.last {padding-right:29px;}
+.bg-banner li::before {content: "•";}
+.bg-banner li:first-child::before {display: none;}
+
+.bg-banner li :hover {color:#A60F14;}
+
+.curvas img {
+    max-width: 100%;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    
+}
+
+.bg-box .red-left {
+    background: #AA0E15;
+    color: #fff;
+    background-size: cover;
+    text-align: right;
+    padding-right: 50px;
+    position: relative;
+    padding-top: 60px;
+}
+
+.bg-box .red-left::before{
+    content: "";
+    width: 4000px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 100%;
+    background: #AA0E15;
+
+}
+
+.bg-box .red-right::before{
+    content: "";
+    width: 4000px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 100%;
+    background: #AA0E15;
+}
+
+
+.bg-box .red-right {
+    background: #AA0E15;
+    color: #fff;
+    background-size: cover;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.bg-box .light-red {
+    background: #E11C25;
+    background-size: cover;
+    text-align: center;
+    padding: 27px 0 ;
+    padding-top: 60px;
+    color: #fff;
+}
+
+.bg-box img {
+    padding-right: 26px;
+}
+
+.red-right p, .red-left p, .light-red p {font-size: 16px; padding: 20px 0; line-height: 20px;}
+
+span.mini-title {font-size: 30px;}
+
+
+.bg-white {
+    padding: 150px 0;
+}
+
+.bg-white p {
+    font-size: 18px;
+    color: #5A5A5A;
+}
+
+.bg-white h2 {
+    font-size: 56px;
+    color: #220000;
+    padding-bottom: 18px;
+    padding-top: 68px;
+    
+}
+
+.img-tomadas {
+    width: 500px;
+    margin-left: 74px;
+    z-index: 100;
+    position: relative;
+    margin-top: -55px;  
+}
+
+
+
+.red-img::before {
+    content: "";
+    width: 1431px;
+    height: 80%;
+    position: absolute;
+    top:0;
+    left: 150;
+    background: url('../images/bg-home-right.jpg')  center center no-repeat;
+}
+
+p.box-red {
+    border: 1px solid  ;
+    background: #E11C25;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    width: 170px;
+    margin-left: -5px;
+}
+
+.red-list li.first {padding-left: 29px;}
+.red-list li.last {padding-right:29px;}
+
+.red-list li {
+    display: inline;
+    font-size: 18px;
+    line-height: 26px;
+    background: #A60F14;
+    padding: 12px 2px;
+}
+
+.red-list li::before {content: "•"; color: #FFF;}
+.red-list li:first-child::before {display: none;}
+
+.red-list li :hover {color:#fff;}
+
+.red-list li a {color: #fff;}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    width: 100%;
+    padding: 55px 0;
+    grid-gap: 45px;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.linha-completa h3 {
+    font-size: 30px;
+    color: #220000;
+    text-align: center;
+    padding-bottom: 107px;
+}
+
+.bg-red::before {
+    content: "";
+    width: 1431px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: url('../images/bg-home-left.jpg')  center center no-repeat;
+}
+
+
+.bg-red {
+    padding: 220px 0;
+}
+.bg-red h4 {
+    color: #fff;
+    z-index: 100;
+    position: relative;
+    font-size: 32px;
+    
+    
+}
+
+.bg-red-2 {
+    z-index: 100;
+    position: relative;
+    margin-top: -175px;
+    
+}
+
+.bg-red-2 p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.catalogo {
+    position: relative;
+}
+
+.catalogo h2 {
+    color: #220000;
+    font-size: 24px; 
+}
+
+.catalogo span {
+    border: 1px solid ;
+    background: #9D1724;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.catalogo img {
+    padding-top: 80px;
+    position: absolute;
+}
+

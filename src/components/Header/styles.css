@@ -1,0 +1,38 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background: transparent;
+    padding: 60px 100px; 
+    color: #fff;
+}
+
+.whatsapp p {
+    font-size: 16px;
+    text-align: right;
+    
+}
+
+span {
+    color: #fff;
+    text-align: right;
+}
+
+
+header ul {
+    position: absolute;
+    background: transparent;
+    text-align: right;
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 45px;
+    padding: 0px 35px;
+    border-left: 1px solid #fff
+}  
+  
+header li { 
+    display: inline-block; 
+    margin-right: 40px;
+    position: relative;
+
+}
