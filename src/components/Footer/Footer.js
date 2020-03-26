@@ -37,11 +37,11 @@ function Footer(){
                         <div className="col-12">
                             <div className="copyright">
                                 <div className="row">
-                                    <div className="col-12 col-md-9 text-left">
+                                    <div className="col-10 col-md-9 text-left">
                                         <p>Copyright © 2020 - Eletromax - Tubos e Conexões - Todos os direitos reservados</p>
                                     </div>
 
-                                    <div className="col-12 col-md-3 text-right">
+                                    <div className="col-2 col-md-3 text-right">
                                         <a href="/" target="_blank"><img src={facebook} alt=""/></a>
                                     </div>
                                 </div>

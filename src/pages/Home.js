@@ -63,7 +63,7 @@ function Home(){
                            <a href="/empresa" className="button-red">Conheça mais</a>
                         </div>
 
-                        <div className="col-12 col-md-4">
+                        <div className="col-12 col-md-4 d-none d-md-block">
                             <div className="red-img">
                                 <img className="img-tomadas" src={tomadas} alt=""  />
                             </div>

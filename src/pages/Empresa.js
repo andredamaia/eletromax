@@ -57,11 +57,11 @@ export default function Empresa() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et lectus sit amet massa imperdiet semper. Aliquam eget fringilla lorem. Phasellus sit amet iaculis enim. Mauris fringilla egestas arcu, sit amet finibus orci viverra sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
-            <div className="col-12">
+            <div className="col-12 d-none d-md-block">
               <div className="clear60"></div>
             </div>
 
-            <div className="col-12">
+            <div className="col-12 d-none d-md-block">
               <a href="/"><img src={imgCatalog} style={{ maxWidth: '100%' }} alt="" /></a>
             </div>
           </div>

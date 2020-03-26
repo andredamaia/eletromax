@@ -51,7 +51,7 @@ export default function Empresa() {
             </div>
 
             <div className="col-12 col-md-7">
-              <img src={bgRepresentantes} style={{ marginTop: -80 }} alt="" />
+              <img src={bgRepresentantes} className="bg-representantes" style={{ marginTop: -80 }} alt="" />
             </div>
           </div>
         </div>

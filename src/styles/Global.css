@@ -50,12 +50,12 @@ h2 {
     text-align: center;
     display: inline-block;
     transition: all .3s ease-in-out;
+    border: none;
 }
     .button-red:hover {
         opacity: .6;
     }
 
-    
 .links {
     margin-top: 100px;
     background: #fff;
@@ -78,4 +78,117 @@ h2 {
     color: #A60F14;
     font-size: 16px;
     font-weight: 600;
+}
+
+@media (max-width: 1460px) {
+    header { padding: 30px 0; }
+
+    h2 { font-size: 32px; } 
+
+    p { font-size: 16px; }
+
+    .bg-banner .links { display: none; }
+    .bg-banner .align-items-center { align-items: flex-start !important; }
+    .bg-banner .row {
+        min-height: 100vh !important;
+        padding: 120px 0 100px !important;
+    }
+    .bg-banner h1 {
+        line-height: 42px !important;
+        font-size: 36px !important;
+    }
+
+    .curvas img { max-width: 150%; top: 160px !important; }
+
+    .list-menu li { margin-right: 30px; }
+
+    .boxes { grid-template-columns: 1fr !important; }
+
+    .red-left, .light-red, .red-right { padding: 20px !important; }
+    .boxes span { font-size: 22px !important; }
+
+    .bg-white { padding: 30px 0 !important; }
+
+    .img-tomadas { max-width: 100%; margin: 0 !important;  }
+
+    .list-produtos .links { display: none !important; }
+
+    .produtos {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        position: relative;
+        width: 100%;
+        gap: 20px !important;
+        padding: 20px !important;
+    }
+
+    .bg-white .d-flex { text-align: center; }
+
+    .button-more { font-size: 18px !important; }
+
+    .bg-red { padding: 30px !important; }
+    .bg-red::before { right: 0 !important; }
+
+    .list-produtos { margin-bottom: 60px !important; }
+    .linha-completa { margin-bottom: 80px !important; }
+
+    .catalogo {
+        position: relative;
+        height: 400px !important;
+        margin-top: 40px !important;
+    }
+
+    .catalogo img {
+        position: absolute;
+        bottom: -55px !important;
+        left: -10px !important;
+        width: 400px !important;
+    }
+
+    .catalogo span { font-size: 18px !important; }
+
+    .copyright { margin-top: 20px !important; }
+
+    .page-title { padding: 25px 0 20px !important; }
+    .page-title h1 {
+        font-size: 30px !important;
+        line-height: 32px !important;
+    }
+
+    .content { max-width: 100% !important; padding: 0 !important; min-width: 100% !important; }
+    .content .container {
+        padding: 30px !important;
+    }
+    .content h2 {
+        position: relative;
+        margin-bottom: 50px !important;
+    }
+
+    p.text-highlight {
+        color: #AA0E15;
+        font-size: 34px !important;
+        line-height: 38px !important;
+    }
+
+    .breadcrumbs {
+        padding: 15px 0 !important;
+        background: #E8E8E8;
+    }
+
+    .bg-representantes {
+        margin-top: 0 !important;
+        max-width: 130% !important;
+    }
+    .box-representantes p {
+        color: #040404;
+        font-size: 16px !important;
+    }
+
+    .links { flex-direction: column !important; }
+
+    form { margin-bottom: 40px !important; }
+
+    .content .light-red p {
+        font-size: 12px !important;
+    }
 }

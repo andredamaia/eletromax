@@ -49,3 +49,12 @@ span {
 
 .infos-top span { font-size: 14px; }
 .infos-top img { margin-right: 5px; width: 15px; }
+
+.button-nav {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    z-index: 500;
+    width: 40px;
+}
+    .button-nav img { width: 100%; }

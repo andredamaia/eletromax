@@ -14,7 +14,7 @@ export default function Empresa() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Sobre nós</h1>
+              <h1>Nossos produtos</h1>
             </div>
           </div>
         </div>
