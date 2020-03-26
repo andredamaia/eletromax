@@ -54,3 +54,28 @@ h2 {
     .button-red:hover {
         opacity: .6;
     }
+
+    
+.links {
+    margin-top: 100px;
+    background: #fff;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+    .links.links-red { background: #E11C25; margin-top: 0; }
+    .links.links-red a, .links.links-red span { color: #fff; }
+
+.links span {
+    color: #A60F14;
+}
+
+.links a {
+    color: #A60F14;
+    font-size: 16px;
+    font-weight: 600;
+}

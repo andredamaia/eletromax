@@ -20,30 +20,6 @@
     color: #fff;
 }
 
-.links {
-    margin-top: 100px;
-    background: #fff;
-    padding: 15px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 10;
-}
-    .links.links-red { background: #E11C25; margin-top: 0; }
-    .links.links-red a, .links.links-red span { color: #fff; }
-
-.links span {
-    color: #A60F14;
-}
-
-.links a {
-    color: #A60F14;
-    font-size: 16px;
-    font-weight: 600;
-}
-
 .bg-banner li {
     display: inline;
     font-size: 16px;
@@ -68,88 +44,6 @@
     bottom: 0;
     left: -50%;
     margin: auto;
-}
-
-.boxes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-}
-
-    .boxes span { 
-        display: block; 
-        text-align: left; 
-        font-weight: 500; 
-        font-size: 28px; 
-    }
-    .boxes p { margin: 0; }
-
-.bg-box .red-left {
-    background: #AA0E15;
-    color: #fff;
-    background-size: cover;
-    text-align: left;
-    position: relative;
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
-}
-
-.bg-box .red-left::before{
-    content: "";
-    width: 4000px;
-    height: 100%;
-    position: absolute;
-    top:0;
-    right: 100%;
-    background: #AA0E15;
-
-}
-
-.bg-box .red-right::before{
-    content: "";
-    width: 4000px;
-    height: 100%;
-    position: absolute;
-    top:0;
-    left: 99%;
-    background: #AA0E15;
-}
-
-
-.bg-box .red-right {
-    background: #AA0E15;
-    color: #fff;
-    background-size: cover;
-    text-align: left;
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
-}
-
-.bg-box .light-red {
-    background: #E11C25;
-    background-size: cover;
-    color: #fff;
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: flex-start;
-}
-
-.bg-box img {
-    margin-right: 30px;
-}
-
-.red-right p, .red-left p, .light-red p { 
-    font-size: 16px; 
-    padding: 20px 0; 
-    line-height: 20px; 
 }
 
 .bg-white {
