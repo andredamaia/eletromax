@@ -1,16 +1,23 @@
 header {
     position: absolute;
     width: 100%;
+    left: 0;
+    top: 0;
     z-index: 100;
     background: transparent;
-    padding: 60px 100px; 
+    padding: 60px 0 30px; 
     color: #fff;
+}
+
+header.page {
+    background: url(../../images/banner.jpg) center top no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .whatsapp p {
     font-size: 16px;
     text-align: right;
-    
 }
 
 span {
@@ -18,21 +25,27 @@ span {
     text-align: right;
 }
 
-
-header ul {
-    position: absolute;
-    background: transparent;
-    text-align: right;
+.list-menu {
+    text-align: left;
     color:#FFFFFF;
     font-size: 16px;
     line-height: 45px;
-    padding: 0px 35px;
+    padding: 0 0 0 35px;
     border-left: 1px solid #fff
 }  
   
-header li { 
+.list-menu li { 
     display: inline-block; 
-    margin-right: 40px;
+    margin-right: 50px;
     position: relative;
-
 }
+
+.list-menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.infos-top span { font-size: 14px; }
+.infos-top img { margin-right: 5px; }

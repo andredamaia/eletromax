@@ -1,33 +1,34 @@
-.bg-footer {
+footer {
     background: #0E0E0E;
-    padding: 55px 0;
-
+    padding: 60px 0 40px;
 }
-.bg-footer p{
+
+footer p {
     color: #FFFFFF;
     font-size: 16px;
-    padding-bottom: 130px;
+    /* padding-bottom: 130px; */
 }
 
-.midias img {
-    width: 15px;
-    color:#fff
+.midias svg {
+    width: 18px;
+    margin-right: 5px;
 }
+
+.midias #whats path { fill:#E11C25; }
+.midias #phone path { stroke:#E11C25; }
 
 .midias span{
     color:#fff
 }
 
 .copyright {
-    display: inline-block;
+    display: block;
+    border-top: 1px solid rgba(255,255,255,.3);
+    padding: 40px 0 0;
+    margin-top: 80px;
 }
 
 .copyright p {
-    border-top: 1px solid #fff;
-    padding: 40px 0;
-}
-
-
-.copyright img {
-    padding: 40px 0;
+    margin: 0;
+    font-size: 14px;
 }

@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.clear60 {
+    display: block;
+    height: 1px;
+    margin-top: 60px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,3 +17,40 @@ html, body, #root {
     height: 100%;
     width: 100%;
 }
+
+body, input, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1460px;
+}
+
+p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 56px;
+    color: #220000;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#root { overflow-x: hidden; position: relative; }
+
+.button-red {
+    background: #E11C25;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+    .button-red:hover {
+        opacity: .6;
+    }
