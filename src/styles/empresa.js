@@ -14,6 +14,8 @@ export const Container = styled.div`
         line-height: 62px;
     }
 
+    .content { width: inherit !important; }
+
     .breadcrumbs {
         padding: 30px 0;
         background: #E8E8E8;

@@ -26,6 +26,8 @@ body, input, button {
     max-width: 1460px;
 }
 
+.content { width: inherit !important; }
+
 p {
     font-size: 18px;
     color: #fff;

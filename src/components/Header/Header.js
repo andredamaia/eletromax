@@ -72,7 +72,7 @@ function Header(){
                 <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-3">
-                            <Link to="/"><img src={logo} alt="" /></Link>
+                            <Link to="/"><img src={logo} className="logo" alt="" /></Link>
                         </div>
 
                         <div className="col-12 col-md-3 text-right infos-top d-none d-md-block">

@@ -9,6 +9,10 @@ header {
     color: #fff;
 }
 
+@media (max-width: 960px){
+    .logo { width: 150px; }
+}
+
 header.page {
     background: url(../../images/banner.jpg) center top no-repeat;
     background-size: cover;
@@ -56,5 +60,7 @@ span {
     right: 20px;
     z-index: 500;
     width: 40px;
+    background: none;
+    border: none;
 }
     .button-nav img { width: 100%; }

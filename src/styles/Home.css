@@ -1,5 +1,5 @@
 .bg-banner {
-    background: url('../images/banner.jpg') fixed no-repeat;
+    background: url('../images/banner.jpg') center top no-repeat;
     background-size: cover;
 }
 

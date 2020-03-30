@@ -60,7 +60,7 @@ export default function Empresa() {
             </div>
 
             <div className="col-12 col-md-6">
-              <p className="text-highlight">Eletrodutos Lisos</p>
+              <p className="text-highlight">Linha elétrica Tampa para condulete</p>
 
               <p>Aliquam luctus lacus sit amet purus faucibus dictum. In convallis porttitor dapibus. Nullam fringilla accumsan lectus sed maximus. Curabitur id magna blandit, bibendum velit ut, ultrices justo. Proin a rutrum velit. Nullam sapien velit, facilisis sit amet neque sed, posuere fringilla ligula. </p>
 
@@ -82,26 +82,6 @@ export default function Empresa() {
                     <td style={{ textAlign: 'center' }}>3/4"</td>
                     <td>Tampa Cinza, Branco, Vermelho e Preto</td>
                     <td style={{ textAlign: 'center' }}>20 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
                   </tr>
                   <tr>
                     <td style={{ textAlign: 'center' }}>1"</td>
