@@ -1,35 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import { Container } from '../styles/contato';
 
 import { ReactComponent as Map } from '../images/map-pin.svg';
 import { ReactComponent as Phone } from '../images/phone-call.svg';
 
-export default function Empresa() {
+export default function Contato() {
   return (
     <Container>
-      <div className="page-title">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h1>Fale conosco</h1>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <Link to="/">Home</Link>
-              <span>•</span>
-              <Link to="/contato">Contato</Link>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contato - Eletromax - Tubos e Conexões</title>
+        <meta name="description" content="Deixe sua mensagem" />
+      </Helmet>
+
 
       <div className="content">
         <div className="container">

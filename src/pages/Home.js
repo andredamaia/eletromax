@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 
 import '../styles/home.css';
 
@@ -22,6 +23,13 @@ function Home(){
 
     return(
         <>
+
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Home - Eletromax - Tubos e Conexões</title>
+                <meta name="description" content="Mais qualidade para sua obra" />
+            </Helmet>
+
             <div className="bg-banner">
                 <div className="container">
                     <div className="row d-flex align-items-center">

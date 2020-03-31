@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import Infos from '../components/Infos/Infos';
 
@@ -7,30 +8,15 @@ import { Container } from '../styles/produtos';
 
 import imgTampas from '../images/tomadas.png';
 
-export default function Empresa() {
+export default function Produtos() {
   return (
     <Container>
-      <div className="page-title">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h1>Nossos produtos</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Produtos - Eletromax - Tubos e Conexões</title>
+        <meta name="description" content="Nossos Produtos" />
+      </Helmet>
 
-      <div className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <Link to="/">Home</Link>
-              <span>•</span>
-              <Link to="/produtos">Produtos</Link>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div className="content">
         <div className="container">
@@ -39,15 +25,15 @@ export default function Empresa() {
               <h2>Nossos Produtos</h2>
 
               <div className="links links-red">
-                  <a href="#">Eletrodutos</a>
+                  <Link to="/produtos/eletrodutos">Eletrodutos</Link>
                   <span>•</span>
-                  <a href="#">Tampas</a>
+                  <Link to="/produtos/tampas">Tampas</Link>
                   <span>•</span>
-                  <a href="#">Conduletes</a>
+                  <Link to="/produtos/conduletes">Conduletes</Link>
                   <span>•</span>
-                  <a href="#">Curvas</a>
+                  <Link to="/produtos/curvas">Curvas</Link>
                   <span>•</span>
-                  <a href="#">Acessórios</a>
+                  <Link to="/produtos/acessorios">Acessórios</Link>
               </div>
             </div>
 
@@ -55,62 +41,7 @@ export default function Empresa() {
               <div className="clear60"></div>
             </div>
 
-            <div className="col-12 col-md-5">
-              <img src={imgTampas} style={{ maxWidth: '100%' }} alt="" />
-            </div>
-
-            <div className="col-12 col-md-6">
-              <p className="text-highlight">Eletrodutos Lisos</p>
-
-              <p>Aliquam luctus lacus sit amet purus faucibus dictum. In convallis porttitor dapibus. Nullam fringilla accumsan lectus sed maximus. Curabitur id magna blandit, bibendum velit ut, ultrices justo. Proin a rutrum velit. Nullam sapien velit, facilisis sit amet neque sed, posuere fringilla ligula. </p>
-
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th style={{ textAlign: 'center' }}>Medida</th>
-                    <th>Produto</th>
-                    <th style={{ textAlign: 'center' }}>Qtd. pacote</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1/2"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>20 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>3/4"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>20 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                  <tr>
-                    <td style={{ textAlign: 'center' }}>1"</td>
-                    <td>Tampa Cinza, Branco, Vermelho e Preto</td>
-                    <td style={{ textAlign: 'center' }}>10 Un.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+           <Outlet />
           </div>
         </div>
       </div>

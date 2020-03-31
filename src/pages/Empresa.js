@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import { Container } from '../styles/empresa';
 
@@ -8,27 +9,13 @@ import imgCatalog from '../images/img-catalog.png';
 export default function Empresa() {
   return (
     <Container>
-      <div className="page-title">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h1>Sobre nós</h1>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <Link to="/">Home</Link>
-              <span>•</span>
-              <Link to="/empresa">Empresa</Link>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Empresa - Eletromax - Tubos e Conexões</title>
+        <meta name="description" content="Toda boa obra começa com produtos Eletromax." />
+      </Helmet>
+
 
       <div className="content empresa">
         <div className="container">

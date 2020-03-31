@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
 
 import { Container } from '../styles/representantes';
 
@@ -8,30 +9,17 @@ import { ReactComponent as Phone } from '../images/phone-call.svg';
 
 import bgRepresentantes from '../images/map.jpg';
 
-export default function Empresa() {
+export default function Representantes() {
   return (
     <Container>
-      <div className="page-title">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h1>Representantes</h1>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="breadcrumbs">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <Link to="/">Home</Link>
-              <span>•</span>
-              <Link to="/representantes">Representantes</Link>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Representantes - Eletromax - Tubos e Conexões</title>
+        <meta name="description" content="Solicite já a visita de um de nossos representantes!" />
+      </Helmet>
+      
 
       <div className="content">
         <div className="container">
